@@ -69,10 +69,10 @@ Because all tasks combined (31 µs) finish well within the fastest required peri
      x_filtered += (new_x – x_filtered) >> ALPHA_SHIFT;
      ```  
    - Computes instantaneous acceleration magnitude:  
-     $$ \text{mag} = \sqrt{X^2 + Y^2 + Z^2} $$
+     `\text{mag} = \sqrt{X^2 + Y^2 + Z^2}`
      
    - Maintains a running buffer to compute mean and variance:  
-     $$ \text{variance} = E[\text{mag}^2] - (E[\text{mag}])^2 $$
+     `\text{variance} = E[\text{mag}^2] - (E[\text{mag}])^2`
 
 3. **Peak Detection (`peak_detection.c` / `peak_detection.h`)**  
    - Uses variance threshold (`Nvar_threshold`) to decide if current reading qualifies as a potential step.  
