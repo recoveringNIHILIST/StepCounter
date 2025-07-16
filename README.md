@@ -10,11 +10,6 @@ A straightforward step-counting application running on an STM32 microcontroller.
 3. [Software Architecture](#software-architecture)  
 4. [Module Breakdown](#module-breakdown)  
 5. [Build Instructions](#build-instructions)  
-6. [Usage](#usage)  
-7. [Calibration & Configuration](#calibration--configuration)  
-8. [Known Limitations](#known-limitations)  
-9. [License](#license)  
-
 ---
 
 ## Project Overview
